@@ -1,0 +1,5 @@
+{
+    "name": "something",
+    "version": "0.0.0",
+    "main": "./build/App.js"
+}
