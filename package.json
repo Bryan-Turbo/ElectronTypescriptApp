@@ -1,5 +1,15 @@
 {
     "name": "something",
     "version": "0.0.0",
-    "main": "./build/App.js"
+    "main": "./build/App.js",
+    "description": "",
+    "repository": "https://github.com/Bryan-Turbo/ElectronTypescriptApp.git",
+    "devDependencies": {
+        "electron": "~1.6.2"
+    },
+    "scripts": {
+        "start": "npm run build && electron .",
+        "build": "tsc && ./build.sh"
+    },
+    "license": "UNLICENCED"
 }

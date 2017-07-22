@@ -19,8 +19,7 @@ export default class Main {
         Main.application.on('ready', function () {
             Main.mainWindow = new BrowserWindow({ width: 400, height: 300 });
 
-            //Yes, I know this hardcoded bit is bad, but it was late
-            Main.mainWindow.loadURL(`file://${__dirname}/../Views/index.html`);
+            Main.mainWindow.loadURL(`file://${__dirname}/views/index.html`);
             Main.mainWindow.on('close', function () {
                 Main.mainWindow = null;
             })
