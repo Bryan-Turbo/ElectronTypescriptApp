@@ -5,7 +5,7 @@
     "description": "",
     "repository": "https://github.com/Bryan-Turbo/ElectronTypescriptApp.git",
     "devDependencies": {
-        "electron": "~1.6.2"
+        "electron": "~9.1.0"
     },
     "scripts": {
         "start": "npm run build && electron .",
